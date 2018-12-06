@@ -1,0 +1,117 @@
+@font-face {
+    font-family: slabo;
+    src: url(Slabo.ttf);
+}
+
+@font-face {
+    font-family: opensans;
+    src: url(opensans.ttf);
+}
+
+a {
+    color: #92d6ff;
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: "slabo";
+    color: white;
+}
+
+p, figure, li, blockquote, nav {
+    font-family: "opensans";
+    color: white;
+}
+
+blockquote {
+    font-size: 0.85em;
+}
+
+.float-fig {
+    width:25%;
+    float:right;
+    margin-left:1em;
+    text-align:center;
+}
+
+figure {
+    background-color:white;
+    color:black;
+    padding: 1em;
+    border-radius:0.25em;
+}
+
+.center-fig {
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    text-align: center;
+}
+
+
+.float-fig-left {
+    float:left;
+}
+
+.float-fig-large {
+    width: 45%;
+}
+
+.float-fig img, .center-fig img {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    background-color: #00000044;
+    border-radius: 0.25em;
+    overflow: hidden;
+    padding: 1em 1em 1em 1em;
+}
+
+nav span {
+    float: left;
+    padding-left:4em;
+}
+
+.nav-right {
+    float:right;
+    padding-right:4em;
+}
+
+ol li {
+    font-style: italic;
+}
+
+figure img {
+    border-radius: 0.25em;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+body {
+    background-color: #333349;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    margin-right: 5%;
+}
+
+.horizontal-list {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.centered-list {
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+footer p {
+    line-height: 0.25em;
+    font-size: 75%;
+}
