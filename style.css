@@ -93,9 +93,9 @@ figcaption {
 
 body {
     background-color: #333349;
-    margin-left: 5%;
+    margin-left: 15%;
     margin-top: 2.5%;
-    margin-right: 5%;
+    margin-right: 15%;
 }
 
 .horizontal-list {
@@ -112,6 +112,28 @@ body {
 }
 
 footer p {
-    line-height: 0.25em;
+    line-height: 1em;
     font-size: 75%;
+}
+
+table {
+    background-color: #FFF;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: left;
+    font-family: "opensans";
+}
+
+th, td {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border: 1px solid black
+}
+
+.tibetan {
+    font-family: serif;
+    font-size: 1.5em;
+}
+
+figure ol li {
+    color: black;
 }
