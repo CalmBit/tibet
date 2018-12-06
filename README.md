@@ -1,4 +1,0 @@
-Tibet Website
-=======
-
-Temporary.
